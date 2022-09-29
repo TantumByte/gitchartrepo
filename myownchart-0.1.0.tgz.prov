@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: tomcat
+  repository: http://charts.bitnami.com/bitnami
+  version: 10.3.12
+description: A Helm chart for Kubernetes
+name: myownchart
+type: application
+version: 0.1.0
+
+...
+files:
+  myownchart-0.1.0.tgz: sha256:b363b67c312aef11ba5ab00a8fe2ab28a329b69fc01bf2dcba3e24d28aaf475f
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJjNWpxCRAipIXn084poAAA9nYMAA3/o3ZBixOPvV5ob5V/b33G
+Q3fx/SNiDA7rrfX3WgNflN/rfDA7jyJthWrwX+v2ynfVtdmnYF6nZlX7fDF5zRMg
+8PUQv7VDx8KYsFm2d6TP/x+BFm4DJ+iWJwOG8vgnsfDzTt8rpQa3UDbr5wqgHzRv
+Ve6oGPlviucLOBOVLZuPV+csX74gPmNb3zfsmu/EuJGMyC5irqDD20Y3n25dOMAU
+O5kxPn3oQ+s4b2yMgVijM8WjCKoKZisRp0i++9Of6ekopLRcW7o+/KoXOTEcL95W
+XCkbs/8hJLr2MDtLoucyEaps3sCcfZXGFNiOxYLTdGd0E4P21fK5CWYRVw0V/XxL
+iVvLj7Wc6aVpnv6h5LDYfYQ0Bahq49TJb70JRmu0y9Gwnll/Eca+PKINBuM4Ou3w
+orKEd3BGoG2wK5e96fcqiYuLc+ppZKQ4IuWwrwJCfC52+wTIm+4Diq5al5hsvn4C
+L7xOWaf3R8twrSorZjKVEipjvOycYAktALzvzY6WoQ==
+=qQqA
+-----END PGP SIGNATURE-----
